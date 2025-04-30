@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <title>Modelo secuencial simple</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
 </head>
 <body>
+
+  <h1>Modelo Secuencial Simple</h1>
+  <p>Formula: y = 2x + 6</p>
+
+  <button id="fit-btn">Entrenar modelo</button>
+  <input id="input-number" class="hide" type="number" placeholder="Ingrese un valor para x">
+  <button id="predict-btn" class="hide">Predecir</button>
+
+  <p id="result"></p>
+
+  <script src="./app.js"></script>
   
 </body>
 </html>
